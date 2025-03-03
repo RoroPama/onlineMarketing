@@ -1,0 +1,335 @@
+@media (max-width: 62.5em) {
+  .presentation-container {
+    margin: 8rem 2rem;
+  }
+  .presentation-container .presentation-text h1 {
+    font-size: 4rem;
+  }
+
+  .section3-content .title h1 {
+    font-size: 2.5rem;
+  }
+
+  .section3-content .title p {
+    font-size: 1.2rem;
+  }
+
+  .section3-content .list-step .step h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .section3-content .list-step .step p {
+    font-size: 1rem;
+  }
+
+  .section4 .part1 .explication h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 59.5em) {
+  .presentation-container .presentation-text h1 {
+    font-size: 3.5rem;
+  }
+
+  .section4 .part2 .container {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 54em) {
+  .presentation-container .presentation-text h1 {
+    font-size: 3rem;
+  }
+  .presentation-container .presentation-text p {
+    font-size: 1.2rem;
+  }
+
+  .section4 .part1 .explication h1 {
+    font-size: 2rem;
+  }
+
+  .section5 .container-img .text h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 52em) {
+  .section3-content .title h1 {
+    font-size: 2rem;
+  }
+
+  .section3-content .title p {
+    font-size: 1rem;
+  }
+
+  .section3-content .list-step .step h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .section3-content .list-step .step p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 48.5em) {
+  .section4 .part2 .container {
+    max-width: 20rem;
+  }
+  .section4 .part2 .container h1 {
+    font-size: 1.5rem;
+  }
+  .presentation-container .presentation-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .logotype {
+    font-size: 1.8rem;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  .buy-cart button {
+    font-size: 1.3rem;
+  }
+  .section1 .box {
+    max-width: 17rem;
+  }
+}
+
+@media (max-width: 44.5em) {
+  .presentation-container .presentation-text h1 {
+    font-size: 2rem;
+  }
+
+  .presentation-container .presentation-text p {
+    font-size: 1.3rem;
+  }
+
+  .discussion {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 42em) {
+  .presentation-container {
+    padding: 2.5rem;
+  }
+
+  .presentation-container .presentation-text {
+    gap: 2rem;
+  }
+  .presentation-container .presentation-text h1 {
+    font-size: 2rem;
+  }
+
+  .presentation-container .presentation-text p {
+    font-size: 1rem;
+  }
+  .presentation-container .presentation-image img {
+    max-width: 20rem;
+  }
+
+  .discussion {
+    font-size: 1rem;
+  }
+
+  .section1 .box h2 {
+    font-size: 1.3rem;
+  }
+
+  .section1 .box p {
+    font-size: 1rem;
+  }
+
+  .section1 .box .name p {
+    font-size: 1.3rem;
+    color: brown;
+  }
+
+  .section2 .Apropos h1 {
+    font-size: 1.7rem;
+  }
+
+  .section2 .Apropos p {
+    font-size: 1.2rem;
+  }
+
+  .section2 .Apropos button {
+    max-width: 10rem;
+    font-size: 1.1rem;
+  }
+
+  .section3-content .title h1 {
+    font-size: 2.2rem;
+  }
+
+  .section3-content .title p {
+    font-size: 1.2rem;
+  }
+
+  .section3-content .list-step .step h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .section3-content .list-step .step p {
+    font-size: 1rem;
+  }
+
+  .section3 .section3-content {
+    max-width: 70%;
+  }
+
+  .button-discussion button {
+    font-size: 1.3rem;
+  }
+
+  .section4 .part1 .explication h1 {
+    font-size: 2rem;
+    color: #0e3629;
+  }
+
+  .section4 .part1 .explication p {
+    font-size: 1.2rem;
+  }
+
+  .section4 .part1 .button-container button {
+    max-width: 10rem;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .section4 .part2 .container {
+    max-width: 15rem;
+  }
+  .section4 .part2 .container h1 {
+    font-size: 1.2rem;
+  }
+  .presentation-container .presentation-text h1 {
+    font-size: 2rem;
+  }
+
+  .menu-mobileClosed {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 38.5em) {
+  .button-nav-menu {
+    display: block;
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .list-links {
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgba(240, 248, 255, 0.905);
+
+    /* visibility */
+  }
+
+  .buy-cart-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .buy-cart {
+    display: none;
+  }
+}
+
+@media (max-width: 35em) {
+  .section1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .presentation-container .presentation-image img {
+    max-width: 18rem;
+
+    transform: scale(1);
+  }
+
+  .section4 .part1 .explication .stats {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 32em) {
+  .presentation-container .presentation-image {
+    max-width: 15%;
+  }
+  .presentation-container .presentation-image img {
+    max-width: 10rem;
+  }
+  .section5 .container-img .text h1 {
+    font-size: 2rem;
+  }
+
+  .section3-content .title h1 {
+    font-size: 2rem;
+  }
+
+  .section3-content .title p {
+    font-size: 1rem;
+  }
+
+  .section3-content .list-step .step h1 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .section3-content .list-step .step p {
+    font-size: 0.8rem;
+  }
+
+  .section3 .section3-content {
+    max-width: 70%;
+  }
+
+  .button-discussion button {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .presentation-container {
+    flex-direction: column;
+    max-width: 80%;
+    margin: 5rem auto;
+    margin-top: 8.5rem;
+  }
+
+  .presentation-container .presentation-image {
+    max-width: 60%;
+  }
+  .presentation-container .presentation-image img {
+    max-width: 13rem;
+  }
+  .section4 .part2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .section4 .part2 .container {
+    max-width: 27rem;
+  }
+}
